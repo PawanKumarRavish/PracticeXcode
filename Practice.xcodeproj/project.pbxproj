@@ -16,6 +16,11 @@
 		5B2FCB032793BECB004100C7 /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FCB022793BECB004100C7 /* PracticeTests.swift */; };
 		5B2FCB0D2793BECB004100C7 /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FCB0C2793BECB004100C7 /* PracticeUITests.swift */; };
 		5B2FCB0F2793BECB004100C7 /* PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FCB0E2793BECB004100C7 /* PracticeUITestsLaunchTests.swift */; };
+		5B6454532794A261009B5D53 /* Insane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B64544E2794A261009B5D53 /* Insane.mp3 */; };
+		5B6454542794A261009B5D53 /* Brown Munde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B64544F2794A261009B5D53 /* Brown Munde.mp3 */; };
+		5B6454552794A261009B5D53 /* Udaarian 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454502794A261009B5D53 /* Udaarian 2.mp3 */; };
+		5B6454562794A261009B5D53 /* Excuses.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454512794A261009B5D53 /* Excuses.mp3 */; };
+		5B6454572794A261009B5D53 /* Photoan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B6454522794A261009B5D53 /* Photoan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5B2FCB082793BECB004100C7 /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2FCB0C2793BECB004100C7 /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		5B2FCB0E2793BECB004100C7 /* PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B64544E2794A261009B5D53 /* Insane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Insane.mp3; path = ../../../Downloads/Songs/Insane.mp3; sourceTree = "<group>"; };
+		5B64544F2794A261009B5D53 /* Brown Munde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Brown Munde.mp3"; path = "../../../Downloads/Songs/Brown Munde.mp3"; sourceTree = "<group>"; };
+		5B6454502794A261009B5D53 /* Udaarian 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Udaarian 2.mp3"; path = "../../../Downloads/Songs/Udaarian 2.mp3"; sourceTree = "<group>"; };
+		5B6454512794A261009B5D53 /* Excuses.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Excuses.mp3; path = ../../../Downloads/Songs/Excuses.mp3; sourceTree = "<group>"; };
+		5B6454522794A261009B5D53 /* Photoan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Photoan.mp3; path = ../../../Downloads/Songs/Photoan.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,12 @@
 		5B2FCAEA2793BECA004100C7 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				5B64544F2794A261009B5D53 /* Brown Munde.mp3 */,
+				5B6454582794A270009B5D53 /* PSongs */,
+				5B6454512794A261009B5D53 /* Excuses.mp3 */,
+				5B64544E2794A261009B5D53 /* Insane.mp3 */,
+				5B6454522794A261009B5D53 /* Photoan.mp3 */,
+				5B6454502794A261009B5D53 /* Udaarian 2.mp3 */,
 				5B2FCAEB2793BECA004100C7 /* AppDelegate.swift */,
 				5B2FCAED2793BECA004100C7 /* SceneDelegate.swift */,
 				5B2FCAEF2793BECA004100C7 /* ViewController.swift */,
@@ -125,6 +141,13 @@
 				5B2FCB0E2793BECB004100C7 /* PracticeUITestsLaunchTests.swift */,
 			);
 			path = PracticeUITests;
+			sourceTree = "<group>";
+		};
+		5B6454582794A270009B5D53 /* PSongs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PSongs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,11 @@
 			files = (
 				5B2FCAF82793BECB004100C7 /* LaunchScreen.storyboard in Resources */,
 				5B2FCAF52793BECB004100C7 /* Assets.xcassets in Resources */,
+				5B6454572794A261009B5D53 /* Photoan.mp3 in Resources */,
+				5B6454542794A261009B5D53 /* Brown Munde.mp3 in Resources */,
+				5B6454552794A261009B5D53 /* Udaarian 2.mp3 in Resources */,
+				5B6454532794A261009B5D53 /* Insane.mp3 in Resources */,
+				5B6454562794A261009B5D53 /* Excuses.mp3 in Resources */,
 				5B2FCAF32793BECA004100C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +467,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P4CZZ6W62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +495,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7P4CZZ6W62;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
